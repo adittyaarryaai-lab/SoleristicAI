@@ -26,13 +26,20 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 mt-10">
-          <button className="px-8 py-4 rounded-xl bg-white text-black font-semibold hover:scale-105 transition">
-            Book Demo
-          </button>
+          <a
+            href="https://calendly.com/adittyaarrya-ai/30min"
+            target="_blank"
+            className="px-8 py-4 bg-gradient-to-r from-[#00A3FF] to-[#39FF14] text-black font-bold rounded-lg hover:scale-105 transition"
+          >
+            Book Free Demo
+          </a>
 
-          <button className="px-8 py-4 rounded-xl border border-zinc-700 hover:border-zinc-500 transition">
+          <a
+            href="#products"
+            className="px-8 py-4 rounded-xl border border-zinc-700 hover:border-zinc-500 transition"
+          >
             Explore Products
-          </button>
+          </a>
         </div>
 
       </div>

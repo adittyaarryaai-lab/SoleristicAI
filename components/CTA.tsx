@@ -37,19 +37,11 @@ export default function CTA() {
         <div className="flex flex-col md:flex-row justify-center gap-4 mt-10">
 
           <a
-            href="mailto:hello@soleristicai.com"
-            className="
-            px-8
-            py-4
-            rounded-xl
-            bg-white
-            text-black
-            font-semibold
-            hover:scale-105
-            transition
-            "
+            href="https://calendly.com/adittyaarrya-ai/30min"
+            target="_blank"
+            className="px-8 py-4 bg-gradient-to-r from-[#00A3FF] to-[#39FF14] text-black font-bold rounded-lg hover:scale-105 transition"
           >
-            Book a Demo
+            Book Free Demo
           </a>
 
           <a
