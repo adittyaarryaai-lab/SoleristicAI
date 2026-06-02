@@ -22,31 +22,37 @@ export default function Products() {
 
           <GlassCard>
 
-            <div className="text-blue-400 text-sm font-medium mb-3">
-              EDUCATION
-            </div>
+            <a href="https://eduflowai.info" target="_blank" rel="noreferrer">
 
-            <GraduationCap size={50} />
+              <div className="text-blue-400 text-sm font-medium mb-3">
+                EDUCATION
+              </div>
+  
+              <GraduationCap size={50} />
+  
+              <h3 className="text-4xl font-bold">
+                EduFlowAI
+              </h3>
+  
+              <p className="mt-4 text-zinc-400 leading-relaxed">
+                Modern school management platform for
+                attendance, communication, academics,
+                administration, and parent engagement.
+              </p>
+  
+              <button className="mt-8 text-blue-400 font-medium">
+                Learn More →
+              </button>
 
-            <h3 className="text-4xl font-bold">
-              EduFlowAI
-            </h3>
-
-            <p className="mt-4 text-zinc-400 leading-relaxed">
-              Modern school management platform for
-              attendance, communication, academics,
-              administration, and parent engagement.
-            </p>
-
-            <button className="mt-8 text-blue-400 font-medium">
-              Learn More →
-            </button>
+            </a>
 
           </GlassCard>
 
           {/* PropFlowAI */}
 
           <GlassCard>
+
+            <a href="https://propflowai.info" target="_blank" rel="noreferrer">
 
             <div className="text-cyan-400 text-sm font-medium mb-3">
               REAL ESTATE
@@ -68,6 +74,8 @@ export default function Products() {
             <button className="mt-8 text-cyan-400 font-medium">
               Learn More →
             </button>
+
+            </a>
 
           </GlassCard>
 
