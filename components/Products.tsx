@@ -22,7 +22,7 @@ export default function Products() {
 
           <GlassCard>
 
-            <a href="https://eduflowai-iota.vercel.app/" target="_blank" rel="noreferrer">
+            <a href="https://www.eduflowai.uk/" target="_blank" rel="noreferrer">
 
               <div className="text-blue-400 text-sm font-medium mb-3">
                 EDUCATION
@@ -52,7 +52,7 @@ export default function Products() {
 
           <GlassCard>
 
-            <a href="https://propflowai-iota.vercel.app/" target="_blank" rel="noreferrer">
+            <a href="https://www.propflowai.uk/" target="_blank" rel="noreferrer">
 
             <div className="text-cyan-400 text-sm font-medium mb-3">
               REAL ESTATE
